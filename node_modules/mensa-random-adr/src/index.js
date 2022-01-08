@@ -1,0 +1,72 @@
+// Arreglo 
+const messages = [
+    "Santiago",
+    "Sebastián",
+    "Diego",
+    "Nicolás",
+    "Samuel",
+    "Alejandro",
+    "Daniel",
+    "Mateo",
+    "Ángel",
+    "Matías",
+    "Gabriel",
+    "Tomás",
+    "David",
+    "Emiliano",
+    "Andrés",
+    "Joaquín",
+    "Carlos",
+    "Alexander",
+    "Adrián",
+    "Lucas",
+    "Benjamín",
+    "Leonardo",
+    "Rodrigo",
+    "Felipe",
+    "Francisco",
+    "Pablo",
+    "Martín",
+    "Fernando",
+    "Isaac",
+    "Manuel",
+    "Juan Pablo",
+    "Emmanuel",
+    "Emilio",
+    "Vicente",
+    "Eduardo",
+    "Juan",
+    "Javier",
+    "Jorge",
+    "Aaron",
+    "José",
+    "Erick",
+    "Luis",
+    "Cristian",
+    "Ignacio",
+    "Christopher",
+    "Jesús",
+    "Kevin",
+    "Juan José",
+    "Agustín",
+    "Simón",
+    "Joshua",
+    "Maximiliano",
+    "Miguel Ángel",
+    "Juan Sebastián",
+    "Bruno",
+    "Iván",
+    "Gael",
+    "Miguel",
+    "Thiago",
+    "Julia"
+];
+
+//Función para enviar nombres aleatoriamente
+const randomMsg = () => {
+    const message = messages[Math.floor(Math.random()*messages.length)]
+    console.log(message)
+}
+
+// Exportar como módulo
+module.exports = { randomMsg }

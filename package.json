@@ -1,6 +1,6 @@
 {
   "name": "mensa-random-adr",
-  "version": "1.0.1",
+  "version": "1.0.0",
   "description": "This npm package sends a random message when it's executed in the terminal. Main proyect of the course of Management of Dependencies and Packages with NPM",
   "main": "index.js",
   "scripts": {
@@ -16,5 +16,13 @@
   "bin": {
     "ranmsg-adr": "./bin/global.js"
   },
-  "preferGlobal": true
+  "preferGlobal": true,
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Adriel-Pezo-2004/mensa-random.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Adriel-Pezo-2004/mensa-random/issues"
+  },
+  "homepage": "https://github.com/Adriel-Pezo-2004/mensa-random#readme"
 }
