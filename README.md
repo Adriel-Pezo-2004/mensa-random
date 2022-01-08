@@ -6,7 +6,7 @@ Main proyect of the course of Management of Dependencies and Packages with NPM
 # Install
 
 ```npm
-npm install -g ranmsg-adr
+npm i mensa-random-adr
 ```
 
 # Usage
